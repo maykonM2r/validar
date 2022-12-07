@@ -1,0 +1,140 @@
+.form_login {
+  width: 90vw;
+  background-color: #222222;
+  color: #CECACA;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px #434242;
+}
+
+.form_login-enfeite {
+  background-color: #22A39F;
+  height: 20px;
+  border-radius: 10px 10px 0 0;
+}
+
+.container_form_login {
+  padding: 1rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.titulo_login {
+  margin: .5rem 0 1.5rem;
+  text-align: center;
+}
+
+.container_login {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 1rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.label_login {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+}
+
+.input_email {
+  border-radius: 5px;
+}
+
+.input_senha {
+  border-radius: 5px 0 0 5px;
+}
+
+.input_login {
+  padding: 0.8rem;
+  background-color: #434242;
+  border: none;
+  color: #CECACA;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container_input {
+  display: flex;
+}
+
+.visualizar_senha {
+  cursor: pointer;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #434242;
+  border-radius: 0 5px 5px 0;
+  
+}
+
+.senha_requisitos {
+  margin-top: .8rem;
+}
+
+.senha_requisito {
+  margin: 0 0 .2rem;
+  font-size: .7rem;
+  display: flex;
+  align-items: center;
+}
+
+.senha_requisito svg {
+  margin-right: .2rem;
+}
+
+.botao_login {
+  font-size: 1rem;
+  margin: 1rem 0 0;
+  padding: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #22A39F;
+  transition: 0.2s;
+}
+
+.botao_login:hover {
+  background-color: #0B6460;
+}
+
+.botao_login:disabled {
+  background-color: #434242;
+  color: #9A99A4;
+}
+
+.vermelho {
+  color: #C82121;
+}
+
+.verde {
+  color: #13991A;
+}
+
+@media screen and (min-width: 600px) {
+  .form_login {
+    width: 60vw;
+  }
+  .visualizar_senha {
+    top: 47px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .form_login {
+    width: 40vw;
+  }
+  .visualizar_senha {
+    top: 47px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .form_login {
+    width: 30vw;
+  }
+}
